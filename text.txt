@@ -1,0 +1,14 @@
+teacher => name,
+can create classes ( we'll use our data to create the classess)
+can stop registration, assign grades to students,
+provide avergare score to a class,
+classList, studentLists
+
+class =>classId ,name, seatCap, teacher, subject,
+ getAllStudent, registerStudent, remove student 
+
+student => name, can register for a class,
+studentId, view my test scores and averages
+
+admin => access to all the teachers, can hire more teachers, 
+searchBy subject and teacher, 
