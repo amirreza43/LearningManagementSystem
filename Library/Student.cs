@@ -9,8 +9,15 @@ namespace Library
 
         public List<int> Grades;
 
+        public List<Class> RegClassList = new List<Class>();
+
         public Student(string name){
             Name = name;
+        }
+
+        public void RegisterForClass(Class klass){
+            RegClassList.Add(klass);
+            // klass.ClassTeacher.AddStudent(this);
         }
 
     }

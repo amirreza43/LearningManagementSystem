@@ -30,5 +30,9 @@ namespace Library
             return TeacherClassList;
         }
 
+        public void AddStudent(Student student){
+            StudentList.Add(student);
+        }
+
     }
 }

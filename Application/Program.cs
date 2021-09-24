@@ -16,7 +16,7 @@ namespace Application
             while (loopOption)
             {
 
-                Console.WriteLine("Type 1 for Amin Options \nType 2 for Teacher Options \nType 3 for Student options");
+                Console.WriteLine("Type 1 for Admin Options \nType 2 for Teacher Options \nType 3 for Student options");
                 var selectOpt = Int32.Parse(Console.ReadLine());
                 if(selectOpt == 1){
 
@@ -27,15 +27,13 @@ namespace Application
 
                 }else if(selectOpt == 2){
 
-                    
-
                   TeacherTerminal.terminal();
 
                   continue;
 
                 }else if(selectOpt == 3){
 
-
+                    
 
                 }else
                 {

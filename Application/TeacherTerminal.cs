@@ -61,6 +61,7 @@ namespace Application
                             if(z.Count > 0){
                                 Class klass = z[0];
                                 Program.teacher.StartClass(klass);
+                                Console.WriteLine("Class has now been started and Registration is closed.");
                             }else {
                                 Console.WriteLine("Class was not found");
                             }
