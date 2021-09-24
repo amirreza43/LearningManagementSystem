@@ -1,0 +1,6 @@
+Application/obj
+Application/bin
+Library/obj
+Library/bin
+Library.Tests/bin
+Library.Tests/obj
